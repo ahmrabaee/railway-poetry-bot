@@ -8,10 +8,11 @@ import os # استيراد مكتبة os للتعامل مع المسارات
 import io # استيراد مكتبة io للتعامل مع كائنات البايتات كملفات
 
 # إعداد الاتصال بالبوت
-app = Client("safe_poetry_bot",
-    api_id=int(os.getenv("API_ID")),
-    api_hash=os.getenv("API_HASH"),
-    bot_token=os.getenv("BOT_TOKEN")
+app = Client(
+    "safe_poetry_bot",
+    api_id=int(os.environ.get("23613053")),
+    api_hash=os.environ.get("ae6f029e868b731ff7c4ab0429f18fb5"),
+    bot_token=os.environ.get("7693900838:AAHBRpiVqAgzuvArq1edXTLCefuPBSTqyRk")
 )
 # 💬 رسالة الترحيب
 intro_message = (
