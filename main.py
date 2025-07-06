@@ -12,7 +12,7 @@ app = Client("safe_poetry_bot",
     api_id=int(os.getenv("API_ID")),
     api_hash=os.getenv("API_HASH"),
     bot_token=os.getenv("BOT_TOKEN")
-
+)
 # 💬 رسالة الترحيب
 intro_message = (
     "بسمِ اللهِ ربِّ أبي أيوبَ وأصحابِه، وبه نستعين، وبعد:\n"
